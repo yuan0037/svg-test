@@ -1,0 +1,33 @@
+div{
+    width:500px;
+
+   background: #fff;
+   padding: 3px 8px;
+   display: inline-block;
+   transition: background .25s ease-in-out;
+   -moz-transition: background .25s ease-in-out;
+   -webkit-transition: background .25s ease-in-out;
+   }
+
+body {
+    margin: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    background-color: #FFF;
+}
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    margin: 0px auto -60px;
+}
+#footer {
+    background-color: #F5F5F5;
+}
+#push, #footer {
+    height: 60px;
+}
+img{
+    max-width: 100%;
+}
